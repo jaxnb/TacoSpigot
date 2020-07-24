@@ -1,0 +1,22 @@
+From 8393d248c795707028aa6597a9337342b0807abe Mon Sep 17 00:00:00 2001
+From: Jaxon Brown <jaxon@jaxonbrown.net>
+Date: Fri, 24 Jul 2020 17:59:17 -0400
+Subject: [PATCH] Changed Version
+
+
+diff --git a/src/main/java/net/minecraft/server/MinecraftServer.java b/src/main/java/net/minecraft/server/MinecraftServer.java
+index c1a8816b..08d4ec99 100644
+--- a/src/main/java/net/minecraft/server/MinecraftServer.java
++++ b/src/main/java/net/minecraft/server/MinecraftServer.java
+@@ -1016,7 +1016,7 @@ public abstract class MinecraftServer implements ICommandListener, Runnable, IAs
+     }
+ 
+     public String getVersion() {
+-        return "1.12.2";
++        return "anything random";
+     }
+ 
+     public int H() {
+-- 
+2.24.1.windows.2
+
